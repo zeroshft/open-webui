@@ -24,6 +24,7 @@ jobs:
         platform:
           - linux/amd64
           - linux/arm64
+          - linux/arm/7
 
     steps:
       # GitHub Packages requires the entire repository name to be in lowercase
@@ -121,6 +122,7 @@ jobs:
         platform:
           - linux/amd64
           - linux/arm64
+          - linux/arm/7
 
     steps:
       # GitHub Packages requires the entire repository name to be in lowercase
@@ -221,6 +223,7 @@ jobs:
         platform:
           - linux/amd64
           - linux/arm64
+          - linux/arm/7
 
     steps:
       # GitHub Packages requires the entire repository name to be in lowercase
